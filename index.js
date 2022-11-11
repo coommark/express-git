@@ -1,4 +1,5 @@
 const express = require("express");
+const users = require("./users");
 
 const app = express();
 
@@ -12,5 +13,7 @@ app.get("/api", (req, res) => {
         message: "This is from the API",
     });
 });
+
+app.use("/api/users", users);
 
 app.listen(3000);
