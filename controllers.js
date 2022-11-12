@@ -6,8 +6,6 @@ const logger = () => {
     }
 };
 
-const printer = () => {};
-
 module.exports = {
     logger,
 };
