@@ -12,6 +12,10 @@ const doublePrinter = () => {
     console.log("Double Printer");
 };
 
+const genericPrinter = () => {
+    console.log("Generic Printer");
+};
+
 module.exports = {
     logger,
 };
