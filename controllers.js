@@ -8,6 +8,10 @@ const logger = () => {
 
 const printer = () => {};
 
+const doublePrinter = () => {
+    console.log("Double Printer");
+};
+
 module.exports = {
     logger,
 };
