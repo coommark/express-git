@@ -34,10 +34,9 @@ router.get("/single", (req, res) => {
 router.get("/admin", (req, res) => {
     logger();
     res.json({
-        name: "Admin User Melton",
+        name: "Changed by Owner",
         career: "Programmer",
     });
 });
-
 
 module.exports = router;
