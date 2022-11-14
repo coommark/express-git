@@ -34,7 +34,7 @@ router.get("/single", (req, res) => {
 router.get("/admin", (req, res) => {
     logger();
     res.json({
-        name: "Changed by Owner",
+        name: "Changed by Twice",
         career: "Programmer",
     });
 });
